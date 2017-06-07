@@ -1,0 +1,15 @@
+{
+  "require": {
+    "symfony/console": "^3.3",
+    "doctrine/orm": "^2.5",
+    "league/csv": "^8.2",
+    "symfony/yaml": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Command\\": "Command",
+      "Models\\": "Entity",
+      "Data\\": "Data"
+    }
+  }
+}
